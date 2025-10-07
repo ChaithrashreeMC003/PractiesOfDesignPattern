@@ -16,6 +16,6 @@ class Program
         repo.Push(new Trade { Id = 1, StockName = "TSLA", quantity = 50 });
 
         Console.WriteLine(" Trade added using Adapter (Push = EF Core Add).");
-        Console.WriteLine(" Press any key to finish ...");
+   
     }
 }
